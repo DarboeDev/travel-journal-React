@@ -1,4 +1,4 @@
-Travel Journal - React Travel Experiences
+#Travel Journal - React Travel Experiences
 Preview 
 ![travel-journal](https://github.com/DarboeDev/travel-journal-React/assets/125799918/01a7285d-e81d-4273-92b4-f18045ff65eb)
 
