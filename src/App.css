@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    background-color: rgba(253, 204, 204, 0.534);
+}
+.container{
+    width: 520px;
+    background-color: white;
+    box-shadow: 2px 4.98256px 9.4564px rgba(0, 0, 0, 0.1);
+}
+.cards-section{
+    padding: 2rem;
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+}
+.nav-bar{
+    background-color: rgb(253, 113, 113);
+    color: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    font-size: 14px;
+    font-weight: 500;
+}
+.nav-bar img{
+  width: 30px;
+}
+.card-image{
+    width: 150px;
+    height: 200px;
+    border-radius: 12px;
+}
+.card{
+    display: flex;
+    gap: 1.5rem;
+    width: 470px;
+    height: 190px;
+}
+.info{
+    margin-top: 1rem;
+}
+.location{
+    display: flex;
+    align-items: center;
+
+}
+.location-pin{
+    width: 12px;
+    margin-right: 3px;
+}
+.country{
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: .8rem;
+}
+.google-maps{
+    color: rgba(172, 172, 172, 0.705);
+    font-size: 12px;
+}
+.google-maps:hover{
+    color: rgb(133, 132, 132);
+}
+.place-title{
+    font-size: 25px;
+    margin-bottom: .8rem;
+}
+.dates{
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: .3rem;
+}
+.text{
+    font-size: 12px;
+}
+
+
+@media(max-width:450px){
+.container{
+    width: 400px;
+}
+.cards-section{
+    padding: 20px;
+    gap: 0rem;
+}
+.card-image{
+    width: 100px;
+    height: 160px;
+}
+
+.card{
+    display: flex;
+    gap: 1rem;
+    width: 360px;
+    height: 190px;
+}
+.info{
+    margin-top: 1rem;
+}
+
+.location-pin{
+    width: 11px;
+}
+.country{
+    font-size: 12px;
+}
+.google-maps{
+    font-size: 11px;
+}
+.place-title{
+    font-size: 20px;
+    margin-bottom: .5rem;
+}
+.dates{
+    font-size: 10px;
+    margin-bottom: .2rem;
+}
+.text{
+    font-size: 10px;
+}
+}
